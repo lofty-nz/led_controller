@@ -1,6 +1,7 @@
 @echo off
 cd C:\path\to\your\repo
 call git add .
-call git commit -m "Automatic commit"
+set /p commitMessage="Enter commit message: "
+call git commit -m "%commitMessage%"
 call git push origin master
 pause

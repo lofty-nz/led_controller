@@ -1,6 +1,6 @@
 #LED controller code v1.0
 #Hardware used, Raspberi Pi Pico W, WS2812 LED strip, EC11 Encoder, Potentiometer
-
+# made this change to test github
 # import libraries
 from machine import ADC, Pin
 import time
